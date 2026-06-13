@@ -2,6 +2,10 @@
 
 Open Protocol | Apache-2.0 | Creator Tools | Open Core | by ruhang365
 
+> New to StyleOS? Start here: [START_HERE.md](START_HERE.md)
+> Current release: [StyleOS Protocol v0.2](RELEASE.md)
+> Creator Alpha: [ALPHA_APPLY.md](ALPHA_APPLY.md)
+
 StyleOS Protocol is an open protocol for AI-powered personal styling workflows.
 
 StyleOS 是 ruhang365 发起的 AI 个人造型决策开放标准，帮助造型、穿搭、形象创作者构建可复用的服务工具。
@@ -41,6 +45,9 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 
 ## What this repository includes
 
+- [Start Here](START_HERE.md): role-based navigation for creators, developers, stylists, small businesses, partners, and investors.
+- [Current Release](RELEASE.md): StyleOS Protocol v0.2 release overview.
+- [Creator Alpha](ALPHA_APPLY.md): alpha application notes for creator testers.
 - [Input Schema](docs/input-schema.md): fan profile, scenario, photo metadata, goals, constraints, budget, and creator notes.
 - [Style Tag Schema](docs/style-tag-schema.md): shared tags for face shape, facial proportion, hairstyle, color, outfit, makeup, scenario, and creator-specific extensions.
 - [Rule Card Schema](docs/rule-card-schema.md): reusable styling rule format for recommendations and avoid lists.
@@ -52,6 +59,8 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - [Seed Knowledge Pack](modules/README.md): starter modules, rule cards, synthetic cases, validation, and execution cards.
 - [Creator Launch Kit](launch/release-notes-v0.1.1.md): Creator Studio Lite product docs, alpha workflow, launch copy, and open-core growth strategy.
 - [Hairstyle Module v0.2](modules/hairstyle/README.md): deep hairstyle tags, mapping matrix, 40 starter rules, synthetic cases, creator workflow, and barber brief.
+- [Release & Star Launch Pack](launch/v0.2-official-announcement.md): v0.2 launch copy, Star growth plan, Alpha recruitment page, and community posts.
+- [Community Onboarding](community/contributor-onboarding.md): contribution, creator, developer, rule-card, and governance guides.
 
 ## What this repository does NOT include
 
@@ -98,6 +107,22 @@ CTA:
 - Contribute Rule Cards
 - Follow ruhang365 updates
 
+See [Star Guide](STAR_GUIDE.md) for why Stars matter and what they do not measure.
+
+## Creator Alpha CTA
+
+StyleOS Creator Alpha is recruiting 20 early creators to test v0.2 workflows:
+
+- hairstyle intake
+- lite report
+- barber brief
+- creator service menu
+- feedback form
+
+Apply through official ruhang365 channel. Application form coming soon.
+
+See [Creator Alpha Application](ALPHA_APPLY.md).
+
 ## Why GitHub Stars Matter
 
 GitHub Stars help the project reach developers, styling creators, product builders, and small-B service teams. More attention can bring better schema suggestions, more starter rules, more synthetic examples, and stronger open-core adoption.
@@ -141,6 +166,20 @@ v0.2 expands the hairstyle module into a deeper documentation pack:
 - v0.2 barber brief schema and execution card.
 
 This version is documentation-only. It does not add an application, package manifest, runtime service, framework, dependency, real case database, or Pro-only logic.
+
+## v0.2 Release & Star Launch Pack
+
+The release pack makes the repository easier to publish, explain, Star, and contribute to:
+
+- [Start Here](START_HERE.md)
+- [Release Notes](RELEASE.md)
+- [Repo Settings](REPO_SETTINGS.md)
+- [Star Guide](STAR_GUIDE.md)
+- [Creator Alpha Application](ALPHA_APPLY.md)
+- [FAQ](FAQ.md)
+- [Launch Calendar](launch/v0.2-launch-calendar.md)
+- [Alpha Recruitment Page](launch/v0.2-alpha-recruitment-page.md)
+- [Repository Navigation](docs/repo-navigation.md)
 
 ## Current Modules
 
@@ -214,6 +253,12 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 ```text
 .
 ├── README.md
+├── START_HERE.md
+├── RELEASE.md
+├── REPO_SETTINGS.md
+├── STAR_GUIDE.md
+├── ALPHA_APPLY.md
+├── FAQ.md
 ├── CHANGELOG.md
 ├── ROADMAP.md
 ├── COMMERCIAL.md
@@ -225,6 +270,14 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 ├── SECURITY.md
 ├── docs/
 │   ├── overview.md
+│   ├── repo-navigation.md
+│   ├── why-styleos.md
+│   ├── why-open-protocol.md
+│   ├── why-creators-first.md
+│   ├── why-hairstyle-first.md
+│   ├── styleos-vs-photo-studio.md
+│   ├── styleos-vs-beauty-app.md
+│   ├── styleos-vs-content-platform.md
 │   ├── open-core-boundary.md
 │   ├── input-schema.md
 │   ├── style-tag-schema.md
@@ -256,7 +309,24 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── social-posts.md
 │   ├── launch-checklist.md
 │   ├── release-notes-v0.1.1.md
-│   └── release-notes-v0.2.md
+│   ├── release-notes-v0.2.md
+│   ├── v0.2-official-announcement.md
+│   ├── v0.2-wechat-post.md
+│   ├── v0.2-xiaohongshu-post.md
+│   ├── v0.2-jike-post.md
+│   ├── v0.2-developer-community-post.md
+│   ├── v0.2-creator-community-post.md
+│   ├── v0.2-private-invitation-message.md
+│   ├── v0.2-launch-calendar.md
+│   ├── v0.2-star-growth-dashboard.md
+│   └── v0.2-alpha-recruitment-page.md
+├── community/
+│   ├── contributor-onboarding.md
+│   ├── creator-onboarding.md
+│   ├── developer-onboarding.md
+│   ├── rule-card-submission-guide.md
+│   ├── good-first-issues.md
+│   └── governance-lite.md
 ├── strategy/
 │   ├── fork-and-clone-defense.md
 │   ├── open-core-growth-loop.md
@@ -278,8 +348,13 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── accessories/
 │   └── scenario/
 ├── cases/
+│   ├── README.md
 │   └── hairstyle/
 ├── validation/
+│   ├── README.md
+│   ├── evidence-levels.md
+│   ├── rule-status.md
+│   ├── review-process.md
 │   ├── hairstyle-review-checklist.md
 │   └── hairstyle-feedback-form.md
 ├── execution-cards/
@@ -298,7 +373,8 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 - `docs/`: protocol overview, schema references, open-core boundary, and evaluation framework.
 - `creator-kit/`: practical templates for creators to collect inputs, package services, deliver lite reports, and improve rules.
 - `product/`: Creator Studio Lite product direction, feature spec, data flow, pricing draft, and alpha plan.
-- `launch/`: launch copy, GitHub Star plan, creator recruitment copy, social posts, checklist, and release notes.
+- `launch/`: launch copy, GitHub Star plan, creator recruitment copy, social posts, checklist, release notes, and v0.2 launch pack.
+- `community/`: onboarding, contribution guides, good first issue ideas, and lightweight governance.
 - `strategy/`: open-core growth strategy, fork defense, creator segments, data flywheel, and small-B use cases.
 - `modules/`: modular starter knowledge structure.
 - `rules/`: starter / unverified Rule Cards.
@@ -365,6 +441,7 @@ See [DATA_POLICY.md](DATA_POLICY.md) and [PRIVACY.md](PRIVACY.md).
 - v0.1.1 Creator Launch Kit
 - v0.1.2 Seed Knowledge Pack
 - v0.2 Hairstyle Module Deep Pack
+- v0.2 Release & Star Launch Pack
 - v0.3 Color Module
 - v0.4 Outfit Module
 - v0.5 Makeup Module

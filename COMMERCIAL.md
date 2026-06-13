@@ -66,6 +66,23 @@ The open repository may document the Creator Studio Lite direction, workflow, an
 
 The hosted product itself may include authentication, dashboard, report generator, creator storefront, payment support, Pro library access, and certification workflow. These are commercial capabilities unless explicitly released under a separate open-source license.
 
+## Release and Alpha Boundary
+
+The repository may include release copy, Star guides, Alpha recruitment pages, community onboarding, and launch calendars.
+
+These documents are public communication and workflow materials. They do not grant access to:
+
+- hosted Creator Studio;
+- StyleOS Cloud;
+- StyleOS Pro;
+- expert-reviewed libraries;
+- verified case databases;
+- certification systems;
+- commercial dashboards;
+- partner execution networks.
+
+Creator Alpha feedback may inform future commercial products, but public repository participation does not create commercial rights, certification, partnership status, or access to private systems.
+
 ## No Implied Commercial Rights
 
 Using this repository does not grant rights to:

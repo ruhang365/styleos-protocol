@@ -2,6 +2,29 @@
 
 All notable changes to StyleOS Protocol will be documented in this file.
 
+## v0.2 Release & Star Launch Pack
+
+Documentation release for making v0.2 easier to publish, explain, Star, and use for Creator Alpha recruitment.
+
+### Added
+
+- Added `START_HERE.md`, `RELEASE.md`, `REPO_SETTINGS.md`, `STAR_GUIDE.md`, `ALPHA_APPLY.md`, and `FAQ.md`.
+- Added v0.2 launch communication pack under `launch/`.
+- Added community onboarding, creator onboarding, developer onboarding, rule-card guide, good first issue ideas, and lightweight governance under `community/`.
+- Added repository navigation and positioning docs under `docs/`.
+- Added comparison docs for photo studios, beauty apps, and content platforms.
+
+### Changed
+
+- Strengthened README first screen with Start Here, Release, and Creator Alpha entry points.
+- Updated roadmap, commercial boundary, and contributing docs for the release and community workflow.
+
+### Notes
+
+- This release remains documentation-only.
+- It introduces no app, package manifest, frontend or backend framework, runtime service, external dependency, real case database, or Pro-only library.
+- Public examples and launch materials avoid real user photos, real names, real contacts, private cases, and unauthorized creator information.
+
 ## v0.2 - Hairstyle Module Deep Pack
 
 Documentation release for expanding the hairstyle module from seed-level examples into a deeper starter pack.

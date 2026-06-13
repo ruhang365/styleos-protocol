@@ -38,6 +38,16 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Add hairstyle creator-kit templates and validation forms.
 - Keep v0.2 documentation-only with no app, runtime service, package manifest, or dependency.
 
+## v0.2 Release & Star Launch Pack
+
+- Add release landing documents: START_HERE, RELEASE, STAR_GUIDE, ALPHA_APPLY, FAQ, and REPO_SETTINGS.
+- Add v0.2 launch copy for official announcement, WeChat, Xiaohongshu, Jike, developer communities, and creator communities.
+- Add private invitation messages, 14-day launch calendar, Star dashboard, and Alpha recruitment page.
+- Add community onboarding, contribution guides, good first issue ideas, and lightweight governance.
+- Add positioning docs explaining why StyleOS, why open protocol, why creators first, why hairstyle first, and how StyleOS differs from photo studios, beauty apps, and content platforms.
+- Strengthen README first screen, Star CTA, Creator Alpha CTA, and release navigation.
+- Keep the launch pack documentation-only and maintain the open-core boundary.
+
 ## v0.3 - Color Module
 
 - Expand color direction tags.

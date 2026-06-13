@@ -7,6 +7,9 @@ Before contributing, read:
 - [DATA_POLICY.md](DATA_POLICY.md)
 - [CONTRIBUTOR_TERMS.md](CONTRIBUTOR_TERMS.md)
 - [TRADEMARKS.md](TRADEMARKS.md)
+- [Contributor Onboarding](community/contributor-onboarding.md)
+- [Rule Card Submission Guide](community/rule-card-submission-guide.md)
+- [Good First Issues](community/good-first-issues.md)
 
 ## Contribution Types
 
@@ -61,6 +64,12 @@ Creator Workflow contributions should describe a practical delivery process, suc
 
 Evaluation Proposal contributions should improve how the community reviews rule quality, report usefulness, creator fit, consistency, and actionability.
 
+### Launch and Community Docs
+
+Launch and community documentation contributions should improve clarity, onboarding, Star education, Creator Alpha recruitment, or role-based navigation.
+
+Do not add real contact details, private recruitment lists, scraped examples, unauthorized creator profiles, or claims that open documents include StyleOS Pro assets.
+
 ## Pull Request Standard
 
 Before opening a pull request:
@@ -85,3 +94,9 @@ Maintainers may review contributions for:
 - commercial boundary clarity;
 - trademark safety;
 - documentation quality.
+
+## Community Guides
+
+- [Creator Onboarding](community/creator-onboarding.md)
+- [Developer Onboarding](community/developer-onboarding.md)
+- [Governance Lite](community/governance-lite.md)
