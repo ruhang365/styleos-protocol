@@ -5,7 +5,7 @@ rule_id: "MAKEUP-RULE-002"
 rule_name: "Professional makeup is not heavy makeup"
 module: "makeup"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "makeup_professional_look"
@@ -26,7 +26,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

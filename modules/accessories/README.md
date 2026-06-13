@@ -12,4 +12,4 @@ The Accessories module structures glasses, hats, earrings, necklaces, bags, and 
 
 ## Starter Rule Status
 
-All public accessories rules in v0.1.1 are `starter / unverified`.
+All public accessories rules in v0.1.2 are `starter / unverified`.

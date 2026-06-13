@@ -14,6 +14,6 @@ The Color module structures color direction reasoning for styling, outfit, makeu
 
 ## Starter Rule Status
 
-All public color rules in v0.1.1 are `starter / unverified`.
+All public color rules in v0.1.2 are `starter / unverified`.
 
 They should output color directions first, not force exact product color codes.

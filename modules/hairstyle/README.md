@@ -51,10 +51,19 @@ The brief card should describe goals, current concerns, what to keep, what to ad
 
 ## Starter Rule Status
 
-All public hairstyle rules in v0.1.1 are `starter / unverified`.
+All public hairstyle rules in v0.1.2 are `starter / unverified`.
 
 中文说明：
 当前发型规则仅用于协议演示和社区共创，不代表专家认证结论。真实服务中需要创作者人工判断和用户确认。
+
+## Pro Library Boundary
+
+The open hairstyle module includes starter taxonomy, starter tags, starter rules, synthetic cases, and barber brief templates.
+
+Advanced expert-reviewed hairstyle mappings, verified real-case patterns, Pro model outputs, partner salon workflows, and certified creator materials belong to StyleOS Pro or future commercial layers unless explicitly released under a separate open license.
+
+中文说明：
+本模块开放的是 starter content，不是专家认证发型库。高级专家模型库、真实授权案例库、认证体系和商业报告生成器不属于本仓库开源范围。
 
 ## Files
 

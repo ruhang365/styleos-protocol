@@ -5,7 +5,7 @@ rule_id: "COLOR-RULE-004"
 rule_name: "Neutral stability for work scenarios"
 module: "color"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "scenario_color_work_stable"
@@ -28,7 +28,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

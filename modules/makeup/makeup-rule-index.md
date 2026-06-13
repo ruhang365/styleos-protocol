@@ -1,6 +1,6 @@
 # Makeup Rule Index
 
-All v0.1.1 makeup rules are starter / unverified.
+All v0.1.2 makeup rules are starter / unverified.
 
 | Rule ID | Topic | File |
 | --- | --- | --- |

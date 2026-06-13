@@ -9,7 +9,7 @@ This card helps users communicate outfit direction to a stylist or creator.
 
 ```yaml
 execution_card_type: "outfit_styling_brief"
-scenario: ""
+target_scenario: ""
 personal_brand_goal:
   - ""
 color_direction:
@@ -21,13 +21,16 @@ neckline_or_upper_body_focus: ""
 formality_level: ""
 avoid:
   - ""
+styling_notes:
+  - ""
 budget_range: ""
 maintenance_level: ""
 ```
 
 ## Field Notes
 
-- Scenario: work, date, content, commute, public speaking.
+- Target scenario: work, date, content, commute, public speaking.
 - Personal brand goal: trustworthy, approachable, creative, polished, memorable.
 - Upper-body focus: especially important for camera or meeting scenes.
 - Avoid: items that conflict with comfort, maintenance, or scenario.
+- Styling notes: practical fit, layering, neckline, movement, or comfort notes for execution.

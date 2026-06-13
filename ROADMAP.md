@@ -9,16 +9,6 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Publish first drafts of input schema, style tag schema, rule card schema, lite report schema, and evaluation framework.
 - Provide creator kit templates and synthetic examples.
 
-## v0.1.1 - Seed Knowledge Pack
-
-- Add modular starter knowledge structure.
-- Add hairstyle, color, outfit, makeup, accessories, and scenario modules.
-- Add starter / unverified Rule Cards.
-- Add synthetic cases.
-- Add validation framework documents.
-- Add execution card templates.
-- Keep all seed content clearly marked as starter content, not expert-certified advice.
-
 ## v0.1.1 - Creator Launch Kit
 
 - Add Creator Studio Lite product docs.
@@ -27,6 +17,16 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Add fork and clone defense, open-core growth loop, creator segments, data flywheel, and small-B use cases.
 - Add Creator Alpha workflow and hosted service boundary docs.
 - Keep launch content documentation-only and maintain open-core boundary.
+
+## v0.1.2 - Seed Knowledge Pack
+
+- Add modular starter knowledge structure.
+- Add hairstyle, color, outfit, makeup, accessories, and scenario modules.
+- Add starter / unverified Rule Cards.
+- Add synthetic cases.
+- Add validation framework documents.
+- Add execution card templates.
+- Keep all seed content clearly marked as starter content, not expert-certified advice.
 
 ## v0.2 - Hairstyle Module
 

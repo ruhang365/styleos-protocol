@@ -5,7 +5,7 @@ rule_id: "MAKEUP-RULE-003"
 rule_name: "Camera makeup must account for lighting"
 module: "makeup"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "makeup_camera_look"
@@ -28,7 +28,7 @@ evidence_type:
   - "heuristic"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

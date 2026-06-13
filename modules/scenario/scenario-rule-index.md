@@ -1,6 +1,6 @@
 # Scenario Rule Index
 
-All v0.1.1 scenario rules are starter / unverified.
+All v0.1.2 scenario rules are starter / unverified.
 
 | Rule ID | Topic | File |
 | --- | --- | --- |

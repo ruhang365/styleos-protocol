@@ -1,6 +1,6 @@
 # Hairstyle Rule Index
 
-All v0.1.1 hairstyle rules are starter / unverified.
+All v0.1.2 hairstyle rules are starter / unverified.
 
 中文说明：
 以下规则用于协议演示和社区共创，不代表专家认证结论。真实服务中需要结合发质、发量、场景和维护意愿人工复核。

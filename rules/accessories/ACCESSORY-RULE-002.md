@@ -5,7 +5,7 @@ rule_id: "ACCESSORY-RULE-002"
 rule_name: "Hat advice must consider face, hair, and scenario"
 module: "accessories"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   signals:
     - "user wants hat recommendation"
@@ -25,7 +25,7 @@ evidence_type:
   - "synthetic example"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

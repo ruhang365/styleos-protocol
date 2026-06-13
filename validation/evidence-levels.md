@@ -9,7 +9,7 @@ Evidence levels describe how much support a StyleOS rule has.
 
 Protocol demonstration content created from synthetic reasoning.
 
-Current v0.1.1 seed content is mostly E0.
+Current v0.1.2 seed content is mostly E0.
 
 It should be treated as a starting point for community iteration, not as expert-certified advice.
 
@@ -43,9 +43,9 @@ A rule or pattern validated inside a Pro model or commercial expert system.
 
 This may belong to StyleOS Pro or another commercial layer unless a public summary is intentionally released.
 
-## v0.1.1 Notice
+## v0.1.2 Notice
 
 The current seed rules are starter content for protocol demonstration and community iteration. They are not expert-certified recommendations.
 
 中文说明：
-当前 v0.1.1 种子规则大部分是 E0，不代表专家认证结论，不代表科学定论，也不代表数据验证结果。
+当前 v0.1.2 种子规则大部分是 E0，不代表专家认证结论，不代表科学定论，也不代表数据验证结果。

@@ -5,7 +5,7 @@ This starter matrix maps color signals to possible strategies.
 中文说明：
 色彩 mapping matrix 用来支持方向判断，不直接替代创作者人工判断。
 
-| Signal | Common risk | Possible strategy | Avoid | Execution note |
+| Color signal | Common risk | Possible strategy | Avoid | Scenario note |
 | --- | --- | --- | --- | --- |
 | low contrast face | 极强黑白撞色可能压过面部 | 使用柔和对比或中等对比组合 | 默认黑白强撞色 | 先输出“低到中对比方向” |
 | warm tendency | 荧光冷色可能显突兀 | 选择暖中性或低刺激冷色点缀 | 大面积荧光冷色 | 标注为谨慎尝试 |

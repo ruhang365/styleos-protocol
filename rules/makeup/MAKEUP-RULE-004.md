@@ -5,7 +5,7 @@ rule_id: "MAKEUP-RULE-004"
 rule_name: "Makeup color direction before products"
 module: "makeup"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   signals:
     - "user asks for specific products before direction is defined"
@@ -23,7 +23,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

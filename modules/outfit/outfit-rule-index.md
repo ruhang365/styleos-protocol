@@ -1,6 +1,6 @@
 # Outfit Rule Index
 
-All v0.1.1 outfit rules are starter / unverified.
+All v0.1.2 outfit rules are starter / unverified.
 
 | Rule ID | Topic | File |
 | --- | --- | --- |

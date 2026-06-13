@@ -1,6 +1,6 @@
 # Color Rule Index
 
-All v0.1.1 color rules are starter / unverified.
+All v0.1.2 color rules are starter / unverified.
 
 | Rule ID | Topic | File |
 | --- | --- | --- |

@@ -12,4 +12,4 @@ The Makeup module structures clean, professional, and camera-aware makeup direct
 
 ## Starter Rule Status
 
-All public makeup rules in v0.1.1 are `starter / unverified`.
+All public makeup rules in v0.1.2 are `starter / unverified`.

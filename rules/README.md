@@ -3,7 +3,7 @@
 Rules are reusable StyleOS Rule Cards.
 
 中文说明：
-`rules/` 存放可被创作者阅读、引用、贡献和扩展的规则卡。v0.1.1 中所有规则都是 `starter / unverified`，用于协议演示和社区共创，不代表专家认证结论。
+`rules/` 存放可被创作者阅读、引用、贡献和扩展的规则卡。v0.1.2 中所有规则都是 `starter / unverified`，用于协议演示和社区共创，不代表专家认证结论。
 
 ## Rule Groups
 

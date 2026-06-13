@@ -12,4 +12,4 @@ The Scenario module structures how styling strategy changes across daily commute
 
 ## Starter Rule Status
 
-All public scenario rules in v0.1.1 are `starter / unverified`.
+All public scenario rules in v0.1.2 are `starter / unverified`.

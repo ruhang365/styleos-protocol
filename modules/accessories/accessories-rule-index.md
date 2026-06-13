@@ -1,6 +1,6 @@
 # Accessories Rule Index
 
-All v0.1.1 accessories rules are starter / unverified.
+All v0.1.2 accessories rules are starter / unverified.
 
 | Rule ID | Topic | File |
 | --- | --- | --- |

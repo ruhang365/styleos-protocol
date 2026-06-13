@@ -17,6 +17,7 @@ avoid:
   - ""
 scenario: ""
 lighting_context: ""
+lighting_note: ""
 ```
 
 ## Field Notes
@@ -27,3 +28,4 @@ lighting_context: ""
 - Cheek/lip direction: color direction, placement, intensity.
 - Avoid: over-heavy base, overly sharp contrast, product names if not needed.
 - Scenario: daily, professional, camera, event.
+- Lighting note: whether the look is for daylight, office light, studio light, livestream light, or unknown light.

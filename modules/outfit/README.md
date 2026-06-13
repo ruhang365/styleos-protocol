@@ -13,4 +13,4 @@ The Outfit module structures clothing direction for silhouette, fabric, neckline
 
 ## Starter Rule Status
 
-All public outfit rules in v0.1.1 are `starter / unverified`.
+All public outfit rules in v0.1.2 are `starter / unverified`.

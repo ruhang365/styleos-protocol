@@ -9,7 +9,7 @@ This card helps users communicate styling needs to photography, makeup, or styli
 
 ```yaml
 execution_card_type: "photo_shoot_brief"
-shoot_goal: ""
+target_impression: ""
 target_platform: ""
 background_context: ""
 lighting_context: ""
@@ -19,6 +19,8 @@ hair_direction: ""
 makeup_direction: ""
 outfit_direction: ""
 accessory_direction: ""
+background_lighting_notes:
+  - ""
 avoid:
   - ""
 review_notes: ""
@@ -26,9 +28,10 @@ review_notes: ""
 
 ## Field Notes
 
-- Shoot goal: professional headshot, creator profile, product content, event photo.
+- Target impression: professional headshot, creator profile, product content, event photo, or other broad shoot goal.
 - Target platform: broad platform type only; no private account identifiers.
 - Background context: light, dark, office, outdoor, studio.
 - Lighting context: soft, strong, mixed, unknown.
 - Upper body priority: neckline, color, shoulder line, hair outline, makeup clarity.
+- Background / lighting notes: how clothing, hair, and makeup should coordinate with background and lighting.
 - Avoid: colors or shapes that conflict with lighting, background, or credibility.

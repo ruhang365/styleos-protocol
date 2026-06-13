@@ -5,7 +5,7 @@ rule_id: "COLOR-RULE-001"
 rule_name: "Low contrast should not default to extreme black-white contrast"
 module: "color"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "contrast_low"
@@ -25,7 +25,7 @@ evidence_type:
   - "heuristic"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

@@ -106,7 +106,7 @@ Allowed values:
 
 ## Seed Rule Evaluation
 
-Seed Rule Evaluation is used for v0.1.1 starter / unverified rules.
+Seed Rule Evaluation is used for v0.1.2 starter / unverified rules.
 
 中文说明：
 Seed rule evaluation 用来判断 starter rules 是否适合公开展示、社区共创和小 B 工具调用。它不等于专家认证。
@@ -152,4 +152,4 @@ Suggested score guide:
 - Do not overstate confidence.
 - Preserve creator judgment and manual review.
 - Keep privacy and commercial boundary rules visible.
-- Mark v0.1.1 seed rules as starter / unverified unless they pass a later review process.
+- Mark v0.1.2 seed rules as starter / unverified unless they pass a later review process.

@@ -2,18 +2,31 @@
 
 All notable changes to StyleOS Protocol will be documented in this file.
 
-## v0.1.1 - Seed Knowledge Pack and Creator Launch Kit
+## v0.1.2 - Seed Knowledge Pack
 
-Seed content and launch-kit release for making the protocol readable, referenceable, extensible, and ready for creator alpha recruitment.
+Seed content release for making the protocol readable, referenceable, contributable, and extensible.
 
 ### Added
 
-- Added starter modules for hairstyle, color, outfit, makeup, accessories, and scenario.
-- Added seed rule cards across modules.
-- Added synthetic cases covering hairstyle, color, outfit, makeup, accessories, client meeting, and creator content scenarios.
-- Added validation framework documents for evidence levels, rule status, and review process.
-- Added execution card templates for barber brief, shopping keywords, makeup artist brief, outfit styling brief, and photo shoot brief.
-- Added evidence levels from E0 synthetic starter rule to E5 Pro model validated pattern.
+- Added starter modules.
+- Added seed rule cards.
+- Added synthetic cases.
+- Added validation framework.
+- Added execution card templates.
+- Added evidence levels.
+
+### Notes
+
+- All v0.1.2 seed rules are `starter / unverified`.
+- Most seed rules are E0 synthetic starter content.
+- This version remains documentation-only and introduces no app, package manifest, framework, runtime service, or external dependency.
+
+## v0.1.1 - Creator Launch Kit
+
+Launch-kit release for making the protocol ready for creator alpha recruitment.
+
+### Added
+
 - Added Creator Studio Lite product docs.
 - Added launch materials for landing page, GitHub Star growth, creator recruitment, social posts, launch checklist, and release notes.
 - Added fork and clone defense strategy.
@@ -23,8 +36,6 @@ Seed content and launch-kit release for making the protocol readable, referencea
 
 ### Notes
 
-- All v0.1.1 seed rules are `starter / unverified`.
-- The seed rules are for protocol demonstration and community iteration, not expert-certified recommendations.
 - This version remains documentation-only and introduces no app, package manifest, framework, runtime service, or external dependency.
 - Creator Studio Lite, StyleOS Cloud, StyleOS Pro, Pro libraries, verified case databases, certification systems, trademarks, and brand assets remain commercial or protected assets outside the Apache-2.0 repository grant.
 

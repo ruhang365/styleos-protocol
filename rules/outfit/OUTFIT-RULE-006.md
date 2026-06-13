@@ -5,7 +5,7 @@ rule_id: "OUTFIT-RULE-006"
 rule_name: "Outfit advice must separate scenarios"
 module: "outfit"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   signals:
     - "one outfit advice is being used across work, date, content, and commute"
@@ -23,7 +23,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

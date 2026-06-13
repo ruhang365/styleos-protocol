@@ -5,7 +5,7 @@ rule_id: "COLOR-RULE-006"
 rule_name: "Color direction before product color codes"
 module: "color"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   signals:
     - "user asks for exact color or product code before direction is clear"
@@ -24,7 +24,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

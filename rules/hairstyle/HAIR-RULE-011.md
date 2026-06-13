@@ -5,7 +5,7 @@ rule_id: "HAIR-RULE-011"
 rule_name: "Younger does not mean full bangs"
 module: "hairstyle"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "goal_look_younger"
@@ -29,7 +29,7 @@ evidence_type:
   - "community starter"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

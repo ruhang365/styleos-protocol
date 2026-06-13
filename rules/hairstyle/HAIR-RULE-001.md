@@ -5,7 +5,7 @@ rule_id: "HAIR-RULE-001"
 rule_name: "Avoid ending length at the widest jawline point"
 module: "hairstyle"
 status: "starter / unverified"
-version: "0.1.1"
+version: "0.1.2"
 applicable_conditions:
   tags:
     - "face_shape_square"
@@ -33,7 +33,7 @@ evidence_type:
   - "synthetic example"
 source_type: "StyleOS starter content"
 contributor: "ruhang365 StyleOS seed"
-evidence_level: "E0 Synthetic starter rule"
+evidence_level: "E0"
 review_status: "starter"
 pro_candidate: false
 privacy_risk: "low"

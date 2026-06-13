@@ -19,6 +19,7 @@ scenario:
   - ""
 avoid_keywords:
   - ""
+budget_note: ""
 ```
 
 ## Field Notes
@@ -28,6 +29,7 @@ avoid_keywords:
 - Fabric: light, medium, structured, matte, soft.
 - Scenario: work, date, commute, camera, meeting.
 - Avoid keywords: high-maintenance, too sheer, overly tight, overly complex, or other user-specific constraints.
+- Budget note: broad budget range or priority spend only; do not include real payment data.
 
 ## Privacy Note
 

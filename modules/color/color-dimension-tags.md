@@ -20,9 +20,11 @@ Color dimension tags provide starter labels for compatible tools.
 
 ## Saturation
 
-- `saturation_muted`: 低饱和、柔和。
+- `saturation_low`: 低饱和、柔和，适合克制或低刺激方向。
 - `saturation_medium`: 中等饱和，稳定可用。
-- `saturation_clear`: 清晰饱和，存在感更高。
+- `saturation_high`: 高饱和，存在感更强，需要结合场景和面积。
+- `saturation_clean`: 清晰干净的饱和印象，适合需要精神感或镜头识别的场景。
+- `saturation_muted`: 灰度更高、柔和收敛，适合日常、专业或低对比方向。
 - `saturation_neon_risk`: 荧光或高刺激色，需要谨慎。
 
 ## Contrast
@@ -37,3 +39,10 @@ Color dimension tags provide starter labels for compatible tools.
 - `scenario_color_camera_friendly`: 镜头友好，减少偏色风险。
 - `scenario_color_social_accent`: 社交或内容场景可增加记忆点。
 - `scenario_color_event_polished`: 活动或正式场景更完整。
+
+## Impression Tags
+
+- `color_impression_clean`: 干净清晰，适合想提升精神感的场景。
+- `color_impression_muted`: 柔和克制，适合低刺激、日常或专业场景。
+- `color_camera_friendly`: 镜头友好，优先考虑上半身和近脸色。
+- `color_professional`: 职场友好，优先稳定、可信和不过度分散注意力。

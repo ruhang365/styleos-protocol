@@ -8,13 +8,42 @@ It provides shared formats for:
 - tagging appearance and scenario signals;
 - expressing reusable styling rules;
 - generating lite reports;
-- evaluating rule and report quality.
+- evaluating rule and report quality;
 - organizing seed knowledge modules;
 - converting recommendations into execution cards;
 - reviewing evidence level and rule status.
 
 中文说明：
 StyleOS Protocol 的目标是把个人造型经验从零散表达变成结构化资产，让创作者、小型服务团队和开发者能围绕同一套字段、标签、规则卡和报告格式协作。
+
+## Three Layers
+
+StyleOS now contains three layers:
+
+1. Protocol layer
+2. Creator launch layer
+3. Seed knowledge layer
+
+### 1. Protocol Layer
+
+The protocol layer defines schemas, contribution rules, data policy, commercial boundary, trademarks, privacy, and security.
+
+中文说明：
+Protocol layer 是底层标准，负责字段、Schema、数据边界、贡献规则和互操作基础。
+
+### 2. Creator Launch Layer
+
+The creator launch layer explains Creator Studio Lite, Creator Alpha, launch copy, GitHub Star growth, open-core strategy, hosted service boundary, and small-B use cases.
+
+中文说明：
+Creator launch layer 用来对外传播、招募创作者内测，并说明未来托管产品和 GitHub 协议之间的边界。
+
+### 3. Seed Knowledge Layer
+
+The seed knowledge layer contains starter modules, starter tags, starter / unverified rules, synthetic cases, validation framework, and execution cards.
+
+中文说明：
+Seed knowledge layer 让仓库不只是概念，而是有可阅读、可引用、可贡献、可扩展的初始内容库。当前内容不是专家认证库。
 
 ## Core Objects
 
@@ -42,7 +71,7 @@ Rule Card describes reusable styling logic: when certain conditions apply, what 
 
 See [Rule Card Schema](rule-card-schema.md).
 
-v0.1.1 starter Rule Cards are stored in [Rules](../rules/README.md). They are `starter / unverified` and mostly E0 synthetic starter rules.
+v0.1.2 starter Rule Cards are stored in [Rules](../rules/README.md). They are `starter / unverified` and mostly E0 synthetic starter rules.
 
 ### Lite Report
 

@@ -120,7 +120,7 @@ See [Hosted Service Boundary](docs/hosted-service-boundary.md) and [Commercial B
 
 ## Seed Knowledge Pack
 
-v0.1.1 adds a seed knowledge pack so the repository is more than empty schemas. It includes starter modules, starter rule cards, synthetic cases, validation documents, and execution card templates.
+v0.1.2 adds a seed knowledge pack so the repository is more than standards and launch materials. It includes starter modules, starter tags, starter rule cards, synthetic cases, execution cards, and validation documents.
 
 The current seed rules are starter content for protocol demonstration and community iteration. They are not expert-certified recommendations.
 
@@ -138,7 +138,7 @@ The current seed rules are starter content for protocol demonstration and commun
 
 ## Starter Rule Cards
 
-The v0.1.1 seed pack includes 35 starter / unverified Rule Cards:
+The v0.1.2 seed pack includes 35 starter / unverified Rule Cards:
 
 - [12 hairstyle rules](modules/hairstyle/hairstyle-rule-index.md)
 - [6 color rules](modules/color/color-rule-index.md)
@@ -166,7 +166,7 @@ StyleOS uses [Evidence Levels](validation/evidence-levels.md) to prevent starter
 - E4 Data-validated rule
 - E5 Pro model validated pattern
 
-Most v0.1.1 seed rules are E0.
+Most v0.1.2 seed rules are E0.
 
 ## Important Disclaimer
 
@@ -339,8 +339,8 @@ See [DATA_POLICY.md](DATA_POLICY.md) and [PRIVACY.md](PRIVACY.md).
 ## Roadmap
 
 - v0.1 protocol skeleton
-- v0.1.1 Seed Knowledge Pack
 - v0.1.1 Creator Launch Kit
+- v0.1.2 Seed Knowledge Pack
 - v0.2 Hairstyle Module
 - v0.3 Color Module
 - v0.4 Outfit Module
