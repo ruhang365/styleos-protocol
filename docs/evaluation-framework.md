@@ -18,6 +18,14 @@ creator_usefulness: 4
 user_actionability: 4
 feedback_score: 0
 expert_review_status: "not_reviewed"
+seed_rule_evaluation:
+  clarity: 4
+  non_harmful_language: 5
+  actionability: 4
+  creator_usefulness: 4
+  execution_feasibility: 4
+  privacy_safety: 5
+  review_readiness: 3
 review_notes:
   - "Synthetic evaluation for protocol demonstration only."
 ```
@@ -96,6 +104,47 @@ Allowed values:
 - `needs_revision`
 - `deprecated`
 
+## Seed Rule Evaluation
+
+Seed Rule Evaluation is used for v0.1.1 starter / unverified rules.
+
+中文说明：
+Seed rule evaluation 用来判断 starter rules 是否适合公开展示、社区共创和小 B 工具调用。它不等于专家认证。
+
+### Clarity
+
+Is the rule understandable, specific, and easy to explain?
+
+### Non-Harmful Language
+
+Does the rule avoid appearance-shaming, body-shaming, gender stereotypes, deterministic claims, and identity labeling?
+
+### Actionability
+
+Can the creator or user take a clear next step from the rule?
+
+### Creator Usefulness
+
+Does the rule help creators package, explain, or deliver a service?
+
+### Execution Feasibility
+
+Can the recommendation be turned into a barber brief, shopping keyword card, makeup artist brief, outfit styling brief, or photo shoot brief?
+
+### Privacy Safety
+
+Does the rule avoid requiring real user photos, names, contacts, private service records, or identifying details in public examples?
+
+### Review Readiness
+
+Is the rule ready for community feedback or creator usage review?
+
+Suggested score guide:
+
+- `1`: not ready.
+- `3`: usable as starter content with limitations.
+- `5`: clear, safe, actionable, and ready for review.
+
 ## Review Principles
 
 - Prefer narrow, testable rules over broad claims.
@@ -103,3 +152,4 @@ Allowed values:
 - Do not overstate confidence.
 - Preserve creator judgment and manual review.
 - Keep privacy and commercial boundary rules visible.
+- Mark v0.1.1 seed rules as starter / unverified unless they pass a later review process.

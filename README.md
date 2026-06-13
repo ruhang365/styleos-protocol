@@ -45,6 +45,7 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - [Lite Report Template](creator-kit/report-lite-template.md): copy-ready report format.
 - [Synthetic Examples](examples/synthetic-case-001.md): synthetic reference cases and outputs.
 - [Evaluation Framework](docs/evaluation-framework.md): quality criteria for rule cards, reports, and schema changes.
+- [Seed Knowledge Pack](modules/README.md): starter modules, rule cards, synthetic cases, validation, and execution cards.
 
 ## What this repository does NOT include
 
@@ -56,6 +57,63 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - creator studio
 - certified partner system
 - ruhang365 / StyleOS trademarks and brand assets
+
+## Seed Knowledge Pack
+
+v0.1.1 adds a seed knowledge pack so the repository is more than empty schemas. It includes starter modules, starter rule cards, synthetic cases, validation documents, and execution card templates.
+
+The current seed rules are starter content for protocol demonstration and community iteration. They are not expert-certified recommendations.
+
+中文说明：
+当前种子规则用于协议演示和社区共创，不代表专家认证结论，不代表科学定论，也不代表数据验证结果。
+
+## Current Modules
+
+- [Hairstyle](modules/hairstyle/README.md): face-shape tags, hair attributes, hairstyle goals, mapping matrix, and barber brief.
+- [Color](modules/color/README.md): undertone tendency, brightness, saturation, contrast, scenario color, and color mapping.
+- [Outfit](modules/outfit/README.md): silhouette, fabric, neckline, shoulder line, waistline, length, formality, scenario, and personal brand goals.
+- [Makeup](modules/makeup/README.md): skin finish, eyebrow direction, eye emphasis, cheek placement, lip color direction, and camera look.
+- [Accessories](modules/accessories/README.md): glasses, hats, earrings, necklaces, bags, and accessory visual weight.
+- [Scenario](modules/scenario/README.md): daily commute, client meeting, interview, date, content creation, livestream, photoshoot, wedding guest, and public speaking.
+
+## Starter Rule Cards
+
+The v0.1.1 seed pack includes 35 starter / unverified Rule Cards:
+
+- [12 hairstyle rules](modules/hairstyle/hairstyle-rule-index.md)
+- [6 color rules](modules/color/color-rule-index.md)
+- [6 outfit rules](modules/outfit/outfit-rule-index.md)
+- [4 makeup rules](modules/makeup/makeup-rule-index.md)
+- [3 accessories rules](modules/accessories/accessories-rule-index.md)
+- [4 scenario rules](modules/scenario/scenario-rule-index.md)
+
+Each rule includes applicable conditions, recommendations, avoid notes, scenario, confidence level, evidence level, review status, execution notes, limitations, and privacy note.
+
+## Synthetic Cases
+
+The seed pack includes [8 synthetic cases](cases/README.md) covering hairstyle, color, outfit, makeup, accessories, client meeting, and creator content scenarios.
+
+All cases are synthetic. They do not include real users, real photos, real names, real contacts, real creators, or private service records.
+
+## Evidence Levels
+
+StyleOS uses [Evidence Levels](validation/evidence-levels.md) to prevent starter content from being misread as verified knowledge:
+
+- E0 Synthetic starter rule
+- E1 Community submitted rule
+- E2 Repeated creator observation
+- E3 Expert reviewed rule
+- E4 Data-validated rule
+- E5 Pro model validated pattern
+
+Most v0.1.1 seed rules are E0.
+
+## Important Disclaimer
+
+StyleOS Protocol provides open schemas, templates, starter rules, and synthetic examples. It does not provide medical advice, body modification advice, cosmetic surgery advice, or deterministic judgments about appearance.
+
+中文说明：
+本仓库避免外貌羞辱、身体羞辱、性别刻板印象和绝对化判断。所有 starter rules 都需要创作者人工复核，并根据真实场景、用户目标、维护意愿和隐私授权谨慎使用。
 
 ## Architecture
 
@@ -104,6 +162,23 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── service-menu-template.md
 │   ├── report-lite-template.md
 │   └── creator-workflow.md
+├── modules/
+│   ├── hairstyle/
+│   ├── color/
+│   ├── outfit/
+│   ├── makeup/
+│   ├── accessories/
+│   └── scenario/
+├── rules/
+│   ├── hairstyle/
+│   ├── color/
+│   ├── outfit/
+│   ├── makeup/
+│   ├── accessories/
+│   └── scenario/
+├── cases/
+├── validation/
+├── execution-cards/
 ├── examples/
 │   ├── synthetic-case-001.md
 │   ├── synthetic-rule-card-001.md
@@ -118,6 +193,11 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 
 - `docs/`: protocol overview, schema references, open-core boundary, and evaluation framework.
 - `creator-kit/`: practical templates for creators to collect inputs, package services, deliver lite reports, and improve rules.
+- `modules/`: modular starter knowledge structure.
+- `rules/`: starter / unverified Rule Cards.
+- `cases/`: synthetic cases only.
+- `validation/`: evidence levels, rule status, and review process.
+- `execution-cards/`: practical brief templates for barber, shopping, makeup, outfit, and photoshoot workflows.
 - `examples/`: synthetic examples only. Do not submit real user photos, names, contacts, or private data.
 - `.github/`: issue forms and pull request checklist for community contribution.
 
@@ -175,12 +255,13 @@ See [DATA_POLICY.md](DATA_POLICY.md) and [PRIVACY.md](PRIVACY.md).
 ## Roadmap
 
 - v0.1 protocol skeleton
-- v0.2 hairstyle module
-- v0.3 color module
-- v0.4 outfit module
-- v0.5 makeup module
-- v0.6 creator workflow
-- v0.7 report generation API draft
+- v0.1.1 Seed Knowledge Pack
+- v0.1.2 Creator Launch Kit
+- v0.2 Hairstyle Module
+- v0.3 Color Module
+- v0.4 Outfit Module
+- v0.5 Makeup Module
+- v0.6 Creator Studio Lite Draft
 - v1.0 stable StyleOS Protocol
 
 See [ROADMAP.md](ROADMAP.md).
