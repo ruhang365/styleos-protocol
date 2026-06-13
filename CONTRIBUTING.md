@@ -13,6 +13,25 @@ Before contributing, read:
 
 ## Contribution Types
 
+### Good First Contributions
+
+Start with small, reviewable documentation contributions:
+
+- improve a schema explanation;
+- add a synthetic case;
+- clarify a rule-card limitation;
+- improve a creator workflow example;
+- improve a validation checklist;
+- review internal links.
+
+See [Good First Issues](community/good-first-issues.md).
+
+### Rule Card Submission Guide
+
+Rule-card contributors should follow [Rule Card Submission Guide](community/rule-card-submission-guide.md).
+
+Every rule-card contribution should include applicable conditions, recommendation, avoid list, scenario, confidence level, evidence level, status, limitations, and privacy note.
+
 ### Rule Card
 
 Use a Rule Card to contribute reusable styling logic.
@@ -59,6 +78,32 @@ Synthetic cases must not include:
 ### Creator Workflow
 
 Creator Workflow contributions should describe a practical delivery process, such as intake, tagging, rule selection, report writing, review, delivery, feedback, and rule improvement.
+
+### Creator Contribution Path
+
+Creators can contribute by:
+
+- testing intake forms;
+- reviewing lite report templates;
+- improving barber brief or execution card language;
+- submitting synthetic cases;
+- abstracting repeated service patterns into privacy-safe rule cards;
+- giving feedback on service menu clarity.
+
+Creators should not submit real fan data, private messages, real photos, contact details, or unauthorized service records.
+
+### Developer Contribution Path
+
+Developers can contribute by:
+
+- improving schema clarity;
+- proposing compatibility rules;
+- documenting how compatible tools should preserve unknown tags;
+- improving report schema examples;
+- reviewing open-core boundary language;
+- suggesting validation checks.
+
+Developers should not add app scaffolds, package manifests, runtime services, build tools, or external dependencies unless the repository scope changes explicitly.
 
 ### Evaluation Proposal
 

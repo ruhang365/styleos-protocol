@@ -48,6 +48,15 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Strengthen README first screen, Star CTA, Creator Alpha CTA, and release navigation.
 - Keep the launch pack documentation-only and maintain the open-core boundary.
 
+## v0.2.1 - Creator Alpha Feedback Pack
+
+- Collect and summarize Creator Alpha feedback.
+- Add feedback synthesis templates for creators, developers, and small-B users.
+- Improve hairstyle intake, lite report, barber brief, and service menu based on alpha review.
+- Add anonymized or synthetic feedback examples only.
+- Identify which requests belong to open protocol and which belong to future hosted Creator Studio / Cloud products.
+- Keep Alpha feedback documents privacy-safe and avoid real personal data.
+
 ## v0.3 - Color Module
 
 - Expand color direction tags.

@@ -8,11 +8,13 @@ Documentation release for making v0.2 easier to publish, explain, Star, and use 
 
 ### Added
 
-- Added `START_HERE.md`, `RELEASE.md`, `REPO_SETTINGS.md`, `STAR_GUIDE.md`, `ALPHA_APPLY.md`, and `FAQ.md`.
-- Added v0.2 launch communication pack under `launch/`.
-- Added community onboarding, creator onboarding, developer onboarding, rule-card guide, good first issue ideas, and lightweight governance under `community/`.
-- Added repository navigation and positioning docs under `docs/`.
-- Added comparison docs for photo studios, beauty apps, and content platforms.
+- Added release materials.
+- Added start-here navigation.
+- Added creator alpha application docs.
+- Added community onboarding docs.
+- Added launch copy.
+- Added repo settings and star guide.
+- Added competitive positioning docs.
 
 ### Changed
 

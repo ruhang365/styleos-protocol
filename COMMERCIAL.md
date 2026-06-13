@@ -55,6 +55,8 @@ Small businesses and creators are expected to use future hosted StyleOS products
 
 GitHub protocol is for standards, interoperability, transparency, and community building.
 
+GitHub is not the primary interface for small-B users. Small-B users are expected to use future hosted ruhang365 StyleOS Creator Studio / Cloud products. The open protocol exists to build standards, community trust, and interoperability.
+
 Commercial hosted products are how ruhang365 provides ready-to-use tools for small-B users, such as creator dashboards, fan intake, report generation, branded output, feedback collection, Pro library access, certification workflows, and partner execution cards.
 
 中文说明：
