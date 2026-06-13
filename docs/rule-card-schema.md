@@ -155,7 +155,7 @@ Allowed values:
 
 Contributor information. Do not include private contact details.
 
-For v0.1.2 seed rules, use:
+For seed rules, use:
 
 - `ruhang365 StyleOS seed`
 
@@ -174,7 +174,7 @@ Allowed values:
 - `accepted`
 - `deprecated`
 
-For v0.1.2 seed rules, use:
+For seed rules, use:
 
 - `starter / unverified`
 

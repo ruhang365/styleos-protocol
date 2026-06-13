@@ -70,6 +70,18 @@ Suggested values:
 - `hairstyle_low_maintenance`
 - `hairstyle_avoid_heavy_bangs`
 
+v0.2 hairstyle extension groups:
+
+- `haircut_shape`: `haircut_bob_soft`, `haircut_lob`, `haircut_layered_medium`, `haircut_pixie_soft`, `haircut_long_layer`
+- `hair_length`: `hair_length_chin`, `hair_length_shoulder`, `hair_length_collarbone`, `hair_length_long`
+- `bangs`: `bangs_none`, `bangs_light`, `bangs_side`, `bangs_curtain`, `bangs_full_heavy`
+- `layer_volume`: `layer_face_framing`, `layer_low`, `layer_weight_control`, `volume_crown_support`, `volume_side_reduce`
+- `curl_perm`: `curl_none`, `curl_soft_wave`, `curl_structured`, `curl_natural`, `curl_uncertain`
+- `maintenance`: `maintenance_low`, `maintenance_medium`, `maintenance_high`, `salon_return_long`
+- `constraints`: `constraint_workplace`, `constraint_pre_shoot`, `constraint_glasses`, `constraint_low_risk`, `constraint_color_caution`
+
+See [Hairstyle Module](../modules/hairstyle/README.md) for the full v0.2 starter taxonomy.
+
 ### Color Direction
 
 Suggested values:

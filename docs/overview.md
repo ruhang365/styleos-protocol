@@ -45,6 +45,8 @@ The seed knowledge layer contains starter modules, starter tags, starter / unver
 中文说明：
 Seed knowledge layer 让仓库不只是概念，而是有可阅读、可引用、可贡献、可扩展的初始内容库。当前内容不是专家认证库。
 
+v0.2 expands the hairstyle module into the first deeper module pack. It adds richer hairstyle taxonomies, 40 hairstyle starter rules, 12 synthetic hairstyle cases, creator-kit templates, validation forms, and a v0.2 barber brief.
+
 ## Core Objects
 
 ### Modules
@@ -71,7 +73,7 @@ Rule Card describes reusable styling logic: when certain conditions apply, what 
 
 See [Rule Card Schema](rule-card-schema.md).
 
-v0.1.2 starter Rule Cards are stored in [Rules](../rules/README.md). They are `starter / unverified` and mostly E0 synthetic starter rules.
+Starter Rule Cards are stored in [Rules](../rules/README.md). They are `starter / unverified`; the v0.2 hairstyle expansion remains E0 starter content.
 
 ### Lite Report
 
@@ -96,6 +98,8 @@ See [Execution Cards](../execution-cards/README.md).
 Synthetic Cases demonstrate how inputs, rule cards, lite recommendations, and execution cards connect.
 
 See [Synthetic Cases](../cases/README.md).
+
+The hairstyle v0.2 synthetic cases live in [Hairstyle Synthetic Cases](../cases/hairstyle/README.md).
 
 ### Validation
 

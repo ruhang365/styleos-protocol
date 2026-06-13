@@ -7,7 +7,7 @@ Modules are the modular knowledge structure of StyleOS Protocol.
 
 ## Current Modules
 
-- [Hairstyle](hairstyle/README.md)
+- [Hairstyle](hairstyle/README.md): v0.2 deep pack with 40 starter rules, taxonomies, synthetic cases, creator workflow, and barber brief.
 - [Color](color/README.md)
 - [Outfit](outfit/README.md)
 - [Makeup](makeup/README.md)

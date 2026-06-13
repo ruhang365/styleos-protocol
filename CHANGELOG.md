@@ -2,6 +2,35 @@
 
 All notable changes to StyleOS Protocol will be documented in this file.
 
+## v0.2 - Hairstyle Module Deep Pack
+
+Documentation release for expanding the hairstyle module from seed-level examples into a deeper starter pack.
+
+### Added
+
+- Added hairstyle input schema, diagnosis workflow, and barber brief schema.
+- Added haircut, length, bangs, layer / volume, curl / perm, and color-direction taxonomies.
+- Added face proportion, jawline, cheekbone, forehead, maintenance, and constraint tags.
+- Added HAIR-RULE-013 through HAIR-RULE-040, expanding hairstyle rules to 40.
+- Added 12 hairstyle synthetic cases under `cases/hairstyle/`.
+- Added hairstyle creator-kit templates for intake, service menu, lite report, and creator workflow.
+- Added hairstyle validation checklist and feedback form.
+- Added v0.2 release notes.
+
+### Changed
+
+- Expanded the hairstyle mapping matrix to 40 rows.
+- Updated hairstyle rule index, face-shape tags, hair-attribute tags, hairstyle-goal tags, and barber brief template.
+- Upgraded `execution-cards/barber-brief-card.md` to v0.2 with short and detailed versions.
+- Updated README, roadmap, overview, style-tag schema, report schema, and evaluation framework.
+
+### Notes
+
+- All v0.2 hairstyle rules are `starter / unverified`.
+- All new v0.2 hairstyle rules are E0 starter content.
+- All v0.2 cases are synthetic.
+- This version remains documentation-only and introduces no app, package manifest, framework, runtime service, real case database, or external dependency.
+
 ## v0.1.2 - Seed Knowledge Pack
 
 Seed content release for making the protocol readable, referenceable, contributable, and extensible.

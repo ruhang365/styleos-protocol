@@ -5,6 +5,13 @@ Hairstyle goal tags describe what the user wants the hairstyle to help with.
 中文说明：
 目标标签用于表达“想通过发型改善什么感受或场景表现”。目标之间可能冲突，真实服务中需要排序。
 
+## v0.2 Usage Notes
+
+- Start every recommendation by ranking goals. A creator should not mix "cleaner", "softer", "sharper", and "creator memory cue" without resolving priority.
+- Goals describe intended impression and context fit. They must not become judgments about the user's face, age, gender, or body.
+- Each report should include `primary_goal`, `secondary_goal`, and `tradeoff_note`.
+- For haircut execution, convert goals into keep / adjust / avoid fields in [Barber Brief Schema](./barber-brief-schema.md).
+
 ## `goal_look_cleaner`
 
 - 目标含义：整体更清爽、利落、容易被理解。
@@ -30,7 +37,7 @@ Hairstyle goal tags describe what the user wants the hairstyle to help with.
 
 - 目标含义：降低沉重、疲惫或过度成熟的视觉感。
 - 适合的输出类型：轻盈发尾、适度层次、柔和动态。
-- 可能冲突的目标：显年轻不等于必须齐刘海，过度幼态可能影响专业感。
+- 可能冲突的目标：年轻感未必来自齐刘海，过度幼态方向可能影响专业感。
 - 示例表达：想更轻松、有活力，但不想显得过度学生感。
 
 ## `goal_look_more_mature`

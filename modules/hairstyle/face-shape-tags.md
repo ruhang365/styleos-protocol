@@ -9,6 +9,14 @@ Face-shape tags are auxiliary styling signals. They should not be used as identi
 
 Each starter tag includes definition, visual signals, common styling goals, caution, and identity boundary.
 
+## v0.2 Usage Notes
+
+- Treat face-shape tags as one signal among hair volume, hair texture, goal, scenario, and maintenance willingness.
+- Prefer combined signals such as `face_shape_square + goal_balance_jawline + maintenance_low` instead of a single-label conclusion.
+- When input is partial or angle-dependent, use `face_shape_mixed_uncertain` and output a lower-risk barber brief.
+- Do not rank faces or describe a face shape as a flaw. The tag only helps choose length, layering, parting, and volume direction.
+- For creator output, pair face tags with [Face Proportion Tags](./face-proportion-tags.md) and [Jawline / Cheekbone / Forehead Tags](./jawline-cheekbone-forehead-tags.md).
+
 ## `face_shape_oval`
 
 - Definition: 轮廓比例相对均衡，脸部长度和宽度没有明显单点突出。

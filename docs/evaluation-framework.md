@@ -30,6 +30,26 @@ review_notes:
   - "Synthetic evaluation for protocol demonstration only."
 ```
 
+## Hairstyle v0.2 Evaluation Object
+
+```yaml
+evaluation_id: "eval-synthetic-hairstyle-v02-001"
+target_type: "hairstyle_report"
+target_id: "SYNTH-HAIR-001"
+module_version: "0.2"
+evidence_level: "E0"
+rule_status: "starter / unverified"
+clarity: 4
+hairstyle_actionability: 4
+barber_brief_quality: 4
+maintenance_fit: 4
+privacy_safety: 5
+non_harmful_language: 5
+open_core_boundary: 5
+review_notes:
+  - "Synthetic evaluation for v0.2 hairstyle protocol demonstration."
+```
+
 ## Criteria
 
 ### Clarity
@@ -106,7 +126,7 @@ Allowed values:
 
 ## Seed Rule Evaluation
 
-Seed Rule Evaluation is used for v0.1.2 starter / unverified rules.
+Seed Rule Evaluation is used for starter / unverified rules, including the v0.2 hairstyle expansion.
 
 中文说明：
 Seed rule evaluation 用来判断 starter rules 是否适合公开展示、社区共创和小 B 工具调用。它不等于专家认证。
@@ -152,4 +172,4 @@ Suggested score guide:
 - Do not overstate confidence.
 - Preserve creator judgment and manual review.
 - Keep privacy and commercial boundary rules visible.
-- Mark v0.1.2 seed rules as starter / unverified unless they pass a later review process.
+- Mark seed rules, including v0.2 hairstyle rules, as starter / unverified unless they pass a later review process.

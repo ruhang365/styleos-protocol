@@ -51,6 +51,7 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - [Evaluation Framework](docs/evaluation-framework.md): quality criteria for rule cards, reports, and schema changes.
 - [Seed Knowledge Pack](modules/README.md): starter modules, rule cards, synthetic cases, validation, and execution cards.
 - [Creator Launch Kit](launch/release-notes-v0.1.1.md): Creator Studio Lite product docs, alpha workflow, launch copy, and open-core growth strategy.
+- [Hairstyle Module v0.2](modules/hairstyle/README.md): deep hairstyle tags, mapping matrix, 40 starter rules, synthetic cases, creator workflow, and barber brief.
 
 ## What this repository does NOT include
 
@@ -127,9 +128,23 @@ The current seed rules are starter content for protocol demonstration and commun
 中文说明：
 当前种子规则用于协议演示和社区共创，不代表专家认证结论，不代表科学定论，也不代表数据验证结果。
 
+## Hairstyle Module v0.2
+
+v0.2 expands the hairstyle module into a deeper documentation pack:
+
+- 40 hairstyle starter / unverified rule cards.
+- Expanded hairstyle input schema, haircut taxonomy, length taxonomy, bangs taxonomy, layer / volume taxonomy, curl / perm taxonomy, and color-direction notes.
+- Face proportion, jawline, cheekbone, forehead, maintenance, and constraint tags.
+- 40-row hairstyle mapping matrix.
+- 12 hairstyle synthetic cases.
+- Hairstyle creator-kit templates and validation forms.
+- v0.2 barber brief schema and execution card.
+
+This version is documentation-only. It does not add an application, package manifest, runtime service, framework, dependency, real case database, or Pro-only logic.
+
 ## Current Modules
 
-- [Hairstyle](modules/hairstyle/README.md): face-shape tags, hair attributes, hairstyle goals, mapping matrix, and barber brief.
+- [Hairstyle](modules/hairstyle/README.md): v0.2 deep pack with input schema, taxonomies, maintenance and constraint tags, 40 starter rules, synthetic cases, creator workflow, and barber brief.
 - [Color](modules/color/README.md): undertone tendency, brightness, saturation, contrast, scenario color, and color mapping.
 - [Outfit](modules/outfit/README.md): silhouette, fabric, neckline, shoulder line, waistline, length, formality, scenario, and personal brand goals.
 - [Makeup](modules/makeup/README.md): skin finish, eyebrow direction, eye emphasis, cheek placement, lip color direction, and camera look.
@@ -138,9 +153,9 @@ The current seed rules are starter content for protocol demonstration and commun
 
 ## Starter Rule Cards
 
-The v0.1.2 seed pack includes 35 starter / unverified Rule Cards:
+The seed pack now includes 63 starter / unverified Rule Cards:
 
-- [12 hairstyle rules](modules/hairstyle/hairstyle-rule-index.md)
+- [40 hairstyle rules](modules/hairstyle/hairstyle-rule-index.md)
 - [6 color rules](modules/color/color-rule-index.md)
 - [6 outfit rules](modules/outfit/outfit-rule-index.md)
 - [4 makeup rules](modules/makeup/makeup-rule-index.md)
@@ -151,7 +166,7 @@ Each rule includes applicable conditions, recommendations, avoid notes, scenario
 
 ## Synthetic Cases
 
-The seed pack includes [8 synthetic cases](cases/README.md) covering hairstyle, color, outfit, makeup, accessories, client meeting, and creator content scenarios.
+The seed pack includes [20 synthetic cases](cases/README.md): 8 cross-module seed cases plus [12 hairstyle v0.2 cases](cases/hairstyle/README.md).
 
 All cases are synthetic. They do not include real users, real photos, real names, real contacts, real creators, or private service records.
 
@@ -166,7 +181,7 @@ StyleOS uses [Evidence Levels](validation/evidence-levels.md) to prevent starter
 - E4 Data-validated rule
 - E5 Pro model validated pattern
 
-Most v0.1.2 seed rules are E0.
+Most seed rules, including the v0.2 hairstyle expansion, are E0.
 
 ## Important Disclaimer
 
@@ -223,7 +238,11 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── fan-intake-form.md
 │   ├── service-menu-template.md
 │   ├── report-lite-template.md
-│   └── creator-workflow.md
+│   ├── creator-workflow.md
+│   ├── hairstyle-intake-form.md
+│   ├── hairstyle-service-menu.md
+│   ├── hairstyle-lite-report-template.md
+│   └── hairstyle-creator-workflow.md
 ├── product/
 │   ├── creator-studio-lite.md
 │   ├── creator-studio-lite-feature-spec.md
@@ -236,7 +255,8 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── creator-recruitment-copy.md
 │   ├── social-posts.md
 │   ├── launch-checklist.md
-│   └── release-notes-v0.1.1.md
+│   ├── release-notes-v0.1.1.md
+│   └── release-notes-v0.2.md
 ├── strategy/
 │   ├── fork-and-clone-defense.md
 │   ├── open-core-growth-loop.md
@@ -258,7 +278,10 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── accessories/
 │   └── scenario/
 ├── cases/
+│   └── hairstyle/
 ├── validation/
+│   ├── hairstyle-review-checklist.md
+│   └── hairstyle-feedback-form.md
 ├── execution-cards/
 ├── examples/
 │   ├── synthetic-case-001.md
@@ -279,8 +302,8 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 - `strategy/`: open-core growth strategy, fork defense, creator segments, data flywheel, and small-B use cases.
 - `modules/`: modular starter knowledge structure.
 - `rules/`: starter / unverified Rule Cards.
-- `cases/`: synthetic cases only.
-- `validation/`: evidence levels, rule status, and review process.
+- `cases/`: synthetic cases only, including hairstyle v0.2 synthetic cases.
+- `validation/`: evidence levels, rule status, review process, and hairstyle v0.2 review forms.
 - `execution-cards/`: practical brief templates for barber, shopping, makeup, outfit, and photoshoot workflows.
 - `examples/`: synthetic examples only. Do not submit real user photos, names, contacts, or private data.
 - `.github/`: issue forms and pull request checklist for community contribution.
@@ -341,7 +364,7 @@ See [DATA_POLICY.md](DATA_POLICY.md) and [PRIVACY.md](PRIVACY.md).
 - v0.1 protocol skeleton
 - v0.1.1 Creator Launch Kit
 - v0.1.2 Seed Knowledge Pack
-- v0.2 Hairstyle Module
+- v0.2 Hairstyle Module Deep Pack
 - v0.3 Color Module
 - v0.4 Outfit Module
 - v0.5 Makeup Module

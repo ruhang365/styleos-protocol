@@ -5,6 +5,13 @@ Hair attribute tags describe practical input signals for hairstyle decisions.
 中文说明：
 发型相关输入标签用于描述发量、发质、头顶高度、发际线、露额程度、维护意愿和剪发风险承受度。它们是服务沟通字段，不是评价用户外貌的标签。
 
+## v0.2 Usage Notes
+
+- Use these tags together with [Maintenance Tags](./maintenance-tags.md), [Constraints Tags](./constraints-tags.md), and [Layer / Volume Taxonomy](./layer-volume-taxonomy.md).
+- Hair volume and texture can change how the same haircut behaves. Do not copy a reference direction without checking support, weight, and daily styling effort.
+- When a user has low maintenance willingness, avoid presenting complex curl, high-precision bangs, or frequent color refresh as low-effort.
+- Public examples must stay synthetic. Private intake can reference user-provided context, but repo content should not include identifiable photos or service notes.
+
 ## Hair Volume
 
 ### `hair_volume_low`

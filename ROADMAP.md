@@ -28,12 +28,15 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Add execution card templates.
 - Keep all seed content clearly marked as starter content, not expert-certified advice.
 
-## v0.2 - Hairstyle Module
+## v0.2 - Hairstyle Module Deep Pack
 
-- Expand hairstyle tags.
-- Add hairstyle-specific rule cards.
-- Define hairstyle input and recommendation fields.
-- Add synthetic hairstyle examples.
+- Expand hairstyle tags, taxonomies, maintenance tags, and constraint tags.
+- Expand hairstyle-specific rule cards from 12 to 40.
+- Define hairstyle input, report, and barber brief fields.
+- Add a 40-row hairstyle mapping matrix.
+- Add 12 synthetic hairstyle examples.
+- Add hairstyle creator-kit templates and validation forms.
+- Keep v0.2 documentation-only with no app, runtime service, package manifest, or dependency.
 
 ## v0.3 - Color Module
 

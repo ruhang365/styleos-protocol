@@ -48,6 +48,52 @@ next_action_checklist:
   - "Review one mirror photo privately with the creator."
 ```
 
+## Hairstyle v0.2 Report Extension
+
+Hairstyle reports can add a module-specific section while preserving the core Lite Report shape.
+
+```yaml
+hairstyle_report:
+  module_version: "0.2"
+  evidence_level: "E0"
+  status: "starter / unverified"
+  input_summary:
+    current_length: ""
+    hair_volume: ""
+    hair_texture: ""
+    natural_shape: ""
+    crown_support: ""
+    maintenance_willingness: ""
+    target_scenario: ""
+  selected_tags:
+    face_shape:
+      - ""
+    proportion:
+      - ""
+    hair:
+      - ""
+    goal:
+      - ""
+    constraints:
+      - ""
+  selected_rules:
+    - "HAIR-RULE-001"
+    - "HAIR-RULE-039"
+  directions:
+    - name: "Direction A"
+      summary: ""
+      tradeoff: ""
+      maintenance: ""
+      risk: ""
+    - name: "Direction B"
+      summary: ""
+      tradeoff: ""
+      maintenance: ""
+      risk: ""
+  barber_brief_ref: "execution-cards/barber-brief-card.md"
+  privacy_note: "Use synthetic public examples or private authorized references only."
+```
+
 ## Sections
 
 ### Summary
@@ -111,6 +157,7 @@ Recommended fields:
 - `shopping_notes`
 - `styling_notes`
 - `review_method`
+- `barber_brief`
 
 ### Next Action Checklist
 
