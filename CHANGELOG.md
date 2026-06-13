@@ -2,9 +2,9 @@
 
 All notable changes to StyleOS Protocol will be documented in this file.
 
-## v0.1.1 - Seed Knowledge Pack
+## v0.1.1 - Seed Knowledge Pack and Creator Launch Kit
 
-Seed content release for making the protocol readable, referenceable, and extensible.
+Seed content and launch-kit release for making the protocol readable, referenceable, extensible, and ready for creator alpha recruitment.
 
 ### Added
 
@@ -14,12 +14,19 @@ Seed content release for making the protocol readable, referenceable, and extens
 - Added validation framework documents for evidence levels, rule status, and review process.
 - Added execution card templates for barber brief, shopping keywords, makeup artist brief, outfit styling brief, and photo shoot brief.
 - Added evidence levels from E0 synthetic starter rule to E5 Pro model validated pattern.
+- Added Creator Studio Lite product docs.
+- Added launch materials for landing page, GitHub Star growth, creator recruitment, social posts, launch checklist, and release notes.
+- Added fork and clone defense strategy.
+- Added open-core growth loop, data flywheel strategy, creator segments, and small-B use cases.
+- Added creator alpha workflow.
+- Added hosted service boundary docs.
 
 ### Notes
 
 - All v0.1.1 seed rules are `starter / unverified`.
 - The seed rules are for protocol demonstration and community iteration, not expert-certified recommendations.
 - This version remains documentation-only and introduces no app, package manifest, framework, runtime service, or external dependency.
+- Creator Studio Lite, StyleOS Cloud, StyleOS Pro, Pro libraries, verified case databases, certification systems, trademarks, and brand assets remain commercial or protected assets outside the Apache-2.0 repository grant.
 
 ## v0.1.0 - Protocol Skeleton
 

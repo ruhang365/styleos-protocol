@@ -19,12 +19,14 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Add execution card templates.
 - Keep all seed content clearly marked as starter content, not expert-certified advice.
 
-## v0.1.2 - Creator Launch Kit
+## v0.1.1 - Creator Launch Kit
 
-- Expand creator-ready service packaging.
-- Add practical creator launch examples.
-- Improve intake, service menu, and delivery templates.
-- Keep launch content protocol-level and documentation-only.
+- Add Creator Studio Lite product docs.
+- Add Creator Studio Lite feature spec, data flow, pricing draft, and alpha plan.
+- Add launch page copy, GitHub Star launch plan, creator recruitment copy, social posts, launch checklist, and release notes.
+- Add fork and clone defense, open-core growth loop, creator segments, data flywheel, and small-B use cases.
+- Add Creator Alpha workflow and hosted service boundary docs.
+- Keep launch content documentation-only and maintain open-core boundary.
 
 ## v0.2 - Hairstyle Module
 
@@ -60,11 +62,12 @@ StyleOS Protocol evolves from a documentation-first open standard toward stable 
 - Define report generation and review steps at the protocol level.
 - Keep hosted creator tooling outside the open repository unless separately released.
 
-## Later Drafts
+## v0.7 - Pro Library Boundary
 
-- Draft report generation API concepts.
-- Define input and output compatibility rules.
-- Keep the draft protocol-level only; no hosted service implementation is included.
+- Define public summary vs commercial rule boundary.
+- Clarify expert-reviewed, data-supported, and Pro model validated patterns.
+- Improve hosted service and Pro library governance docs.
+- Keep advanced libraries, verified cases, and certification systems commercial unless separately released.
 
 ## v1.0 - Stable StyleOS Protocol
 

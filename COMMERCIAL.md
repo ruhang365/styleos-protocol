@@ -49,6 +49,23 @@ Future ruhang365 online products may provide complete hosted capabilities, advan
 中文说明：
 小 B 和创作者可以先基于本仓库搭建轻量服务流程；完整线上服务、高级库、认证和数据闭环能力可通过 ruhang365 未来提供的商业产品获得。
 
+## GitHub Protocol vs Hosted Products
+
+Small businesses and creators are expected to use future hosted StyleOS products rather than GitHub directly.
+
+GitHub protocol is for standards, interoperability, transparency, and community building.
+
+Commercial hosted products are how ruhang365 provides ready-to-use tools for small-B users, such as creator dashboards, fan intake, report generation, branded output, feedback collection, Pro library access, certification workflows, and partner execution cards.
+
+中文说明：
+GitHub 仓库面向标准、互操作和社区共建；小 B 和创作者的日常使用场景更适合未来托管产品，例如 StyleOS Creator Studio / StyleOS Cloud。托管产品是商业服务，不属于 Apache-2.0 开源仓库授权范围。
+
+## Creator Studio Lite Boundary
+
+The open repository may document the Creator Studio Lite direction, workflow, and feature specification.
+
+The hosted product itself may include authentication, dashboard, report generator, creator storefront, payment support, Pro library access, and certification workflow. These are commercial capabilities unless explicitly released under a separate open-source license.
+
 ## No Implied Commercial Rights
 
 Using this repository does not grant rights to:

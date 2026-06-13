@@ -1,8 +1,12 @@
 # StyleOS Protocol
 
+Open Protocol | Apache-2.0 | Creator Tools | Open Core | by ruhang365
+
 StyleOS Protocol is an open protocol for AI-powered personal styling workflows.
 
 StyleOS 是 ruhang365 发起的 AI 个人造型决策开放标准，帮助造型、穿搭、形象创作者构建可复用的服务工具。
+
+StyleOS helps creators turn styling expertise into structured workflows, starter rule cards, lite reports, execution cards, and future hosted creator tools.
 
 ## What is StyleOS
 
@@ -46,6 +50,7 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - [Synthetic Examples](examples/synthetic-case-001.md): synthetic reference cases and outputs.
 - [Evaluation Framework](docs/evaluation-framework.md): quality criteria for rule cards, reports, and schema changes.
 - [Seed Knowledge Pack](modules/README.md): starter modules, rule cards, synthetic cases, validation, and execution cards.
+- [Creator Launch Kit](launch/release-notes-v0.1.1.md): Creator Studio Lite product docs, alpha workflow, launch copy, and open-core growth strategy.
 
 ## What this repository does NOT include
 
@@ -57,6 +62,61 @@ StyleOS Protocol 不是 C 端色彩测试工具，不是修图工具，也不是
 - creator studio
 - certified partner system
 - ruhang365 / StyleOS trademarks and brand assets
+
+## Creator Studio Lite
+
+[StyleOS Creator Studio Lite](product/creator-studio-lite.md) is a lightweight hosted workflow for styling, outfit, beauty, and image creators to collect fan information, tag user profiles, generate lite reports, and turn creator expertise into reusable services.
+
+中文说明：
+StyleOS Creator Studio Lite 是面向造型、穿搭、形象、美妆博主的小 B 工具原型，帮助他们把粉丝咨询流程标准化，把个人审美经验转化为可复用、可交付、可收费的服务。
+
+The GitHub repository is not a direct-to-consumer fan product. Ordinary fans use StyleOS indirectly through creators, studios, or small-B services.
+
+普通粉丝通过博主或小 B 服务间接使用 StyleOS；博主和小 B 使用未来的 StyleOS Creator Studio / StyleOS Cloud。
+
+## Alpha Program
+
+The [Creator Alpha Workflow](docs/creator-alpha-workflow.md) is designed for early creators to test fan intake, profile tagging, rule card selection, lite report delivery, feedback collection, and rule abstraction.
+
+Alpha targets:
+
+- creator workflow validation;
+- synthetic or authorized anonymized case studies;
+- starter rule feedback;
+- paid pilot discovery;
+- Pro library boundary design.
+
+## Star the Project
+
+If you believe personal styling workflows need an open protocol, Star the project on GitHub and share it with creators, developers, and small service teams.
+
+CTA:
+
+- Star on GitHub
+- Apply for Creator Alpha
+- Contribute Rule Cards
+- Follow ruhang365 updates
+
+## Why GitHub Stars Matter
+
+GitHub Stars help the project reach developers, styling creators, product builders, and small-B service teams. More attention can bring better schema suggestions, more starter rules, more synthetic examples, and stronger open-core adoption.
+
+中文说明：
+Star 不是虚荣指标，而是帮助开放标准获得早期可见度，让更多创作者和开发者参与共建。
+
+## Fork and Clone Strategy
+
+Protocol can be forked. The ecosystem cannot be easily forked.
+
+StyleOS accepts that forks will happen. The project should win through brand, update speed, community, data feedback, Pro library, hosted service, certification, and expert network.
+
+See [Fork and Clone Defense](strategy/fork-and-clone-defense.md).
+
+## Hosted Service Boundary
+
+The GitHub repository is the open protocol layer. Future hosted products such as StyleOS Creator Studio, StyleOS Cloud, and StyleOS Pro are commercial services and are not included under the Apache-2.0 repository license.
+
+See [Hosted Service Boundary](docs/hosted-service-boundary.md) and [Commercial Boundary](COMMERCIAL.md).
 
 ## Seed Knowledge Pack
 
@@ -155,13 +215,34 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 │   ├── style-tag-schema.md
 │   ├── rule-card-schema.md
 │   ├── report-schema.md
-│   └── evaluation-framework.md
+│   ├── evaluation-framework.md
+│   ├── creator-alpha-workflow.md
+│   └── hosted-service-boundary.md
 ├── creator-kit/
 │   ├── README.md
 │   ├── fan-intake-form.md
 │   ├── service-menu-template.md
 │   ├── report-lite-template.md
 │   └── creator-workflow.md
+├── product/
+│   ├── creator-studio-lite.md
+│   ├── creator-studio-lite-feature-spec.md
+│   ├── creator-studio-lite-data-flow.md
+│   ├── creator-studio-lite-pricing-draft.md
+│   └── creator-studio-lite-alpha-plan.md
+├── launch/
+│   ├── landing-page-copy.md
+│   ├── github-star-launch-plan.md
+│   ├── creator-recruitment-copy.md
+│   ├── social-posts.md
+│   ├── launch-checklist.md
+│   └── release-notes-v0.1.1.md
+├── strategy/
+│   ├── fork-and-clone-defense.md
+│   ├── open-core-growth-loop.md
+│   ├── creator-segment.md
+│   ├── data-flywheel.md
+│   └── small-b-use-cases.md
 ├── modules/
 │   ├── hairstyle/
 │   ├── color/
@@ -193,6 +274,9 @@ The commercial layer is responsible for hosted products, advanced libraries, cer
 
 - `docs/`: protocol overview, schema references, open-core boundary, and evaluation framework.
 - `creator-kit/`: practical templates for creators to collect inputs, package services, deliver lite reports, and improve rules.
+- `product/`: Creator Studio Lite product direction, feature spec, data flow, pricing draft, and alpha plan.
+- `launch/`: launch copy, GitHub Star plan, creator recruitment copy, social posts, checklist, and release notes.
+- `strategy/`: open-core growth strategy, fork defense, creator segments, data flywheel, and small-B use cases.
 - `modules/`: modular starter knowledge structure.
 - `rules/`: starter / unverified Rule Cards.
 - `cases/`: synthetic cases only.
@@ -256,12 +340,13 @@ See [DATA_POLICY.md](DATA_POLICY.md) and [PRIVACY.md](PRIVACY.md).
 
 - v0.1 protocol skeleton
 - v0.1.1 Seed Knowledge Pack
-- v0.1.2 Creator Launch Kit
+- v0.1.1 Creator Launch Kit
 - v0.2 Hairstyle Module
 - v0.3 Color Module
 - v0.4 Outfit Module
 - v0.5 Makeup Module
 - v0.6 Creator Studio Lite Draft
+- v0.7 Pro Library Boundary
 - v1.0 stable StyleOS Protocol
 
 See [ROADMAP.md](ROADMAP.md).
