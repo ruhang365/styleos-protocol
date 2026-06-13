@@ -1,0 +1,78 @@
+name: Rule Card
+description: Submit a StyleOS-compatible styling rule card.
+title: "[Rule Card]: "
+labels:
+  - rule-card
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit reusable styling logic. Do not include real user photos, real names, contact information, or unauthorized cases.
+  - type: input
+    id: rule_name
+    attributes:
+      label: Rule name
+      description: A clear human-readable rule name.
+      placeholder: Soft face framing for round-soft face tendency
+    validations:
+      required: true
+  - type: textarea
+    id: applicable_conditions
+    attributes:
+      label: Applicable conditions
+      description: Tags, scenarios, constraints, budget, or change level.
+      placeholder: |
+        tags:
+          - face_shape_round
+          - feature_weight_soft
+        scenario:
+          - scenario_workday
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: What should the creator recommend?
+    validations:
+      required: true
+  - type: textarea
+    id: avoid
+    attributes:
+      label: Avoid list
+      description: What should be avoided, and why?
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence_level
+    attributes:
+      label: Confidence level
+      options:
+        - low
+        - medium
+        - high
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - synthetic
+        - abstracted_creator_practice
+        - fully_anonymized_authorized_case
+        - expert_reviewed
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy check
+      options:
+        - label: This submission does not include real user photos.
+          required: true
+        - label: This submission does not include personal data.
+          required: true
+        - label: This submission does not include unauthorized cases.
+          required: true

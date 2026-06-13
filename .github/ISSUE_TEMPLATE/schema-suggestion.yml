@@ -1,0 +1,60 @@
+name: Schema Suggestion
+description: Suggest changes to StyleOS schemas or tags.
+title: "[Schema]: "
+labels:
+  - schema
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest fields, tags, validation rules, or compatibility improvements.
+  - type: dropdown
+    id: schema_area
+    attributes:
+      label: Schema area
+      options:
+        - input schema
+        - style tag schema
+        - rule card schema
+        - report schema
+        - evaluation framework
+        - creator kit
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: current_limitation
+    attributes:
+      label: Current limitation
+      description: What problem does the current schema have?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the new field, tag, rule, or documentation change.
+    validations:
+      required: true
+  - type: textarea
+    id: synthetic_example
+    attributes:
+      label: Synthetic example
+      description: Show how the change would look using synthetic data only.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility impact
+      description: Will this affect existing fields, tags, rule cards, or reports?
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy check
+      options:
+        - label: This suggestion does not include real user photos.
+          required: true
+        - label: This suggestion does not include personal data.
+          required: true

@@ -1,0 +1,58 @@
+name: Creator Use Case
+description: Share a creator workflow or service scenario.
+title: "[Creator Use Case]: "
+labels:
+  - creator-use-case
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share creator workflows using synthetic or fully anonymized information only.
+  - type: input
+    id: creator_type
+    attributes:
+      label: Creator type
+      placeholder: outfit creator, hairstylist, image consultant, photography studio
+    validations:
+      required: true
+  - type: textarea
+    id: service_scenario
+    attributes:
+      label: Service scenario
+      description: What service workflow are you describing?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: Intake, tagging, rule selection, report, review, delivery, feedback.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol_needs
+    attributes:
+      label: Protocol needs
+      description: What schema fields, tags, templates, or evaluation criteria would help?
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Data type
+      options:
+        - synthetic
+        - fully anonymized
+        - abstracted workflow only
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy check
+      options:
+        - label: This use case does not include real user photos.
+          required: true
+        - label: This use case does not include personal data.
+          required: true
+        - label: This use case does not include unauthorized service records.
+          required: true
